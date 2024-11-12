@@ -38,21 +38,21 @@ cd C--app
 Alternatively, you can pull the Docker image directly from Docker Hub:
 
 ```bash
-docker pull daniela0919/c#app:1.0
+docker pull daniela0919/csharapp:latest
 ```
 
 ### 2. Build the Docker Image (Skip if Pulled Directly)
 If you cloned the repository and wish to build the image locally, use the following command:
 
 ```bash
-docker build -t daniela0919/c#app:1.0 .
+docker build -t daniela0919/csharapp:latest .
 ```
 
 ### 3. Run the Container
 Run the container using:
 
 ```bash
-docker run daniela0919/c#app:1.0
+docker run daniela0919/csharapp:latest
 ```
 
 The container will display the following message in the console:
